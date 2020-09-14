@@ -40,10 +40,15 @@ sudo echo "<div style='padding:20px;'><p>" >> ~/docker-nginx/html/index.html
 #Query database
 sudo -i -u postgres psql -d "$dbname" -c "$dbquery" >> ~/docker-nginx/html/index.html
 
-sudo echo "</p></div></body></html>" >> ~/docker-nginx/html/index.html
+sudo echo "</p></div>" >> ~/docker-nginx/html/index.html
 
 # Run Docker container
 sudo docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx
 
 
+# Get Container Hostname and ID and write to index.html
 
+sudo docker ps --format "Name: {{.Names}}\n\n" >> ~/docker-nginx/html/index.html
+sudo docker ps --format "ContainerID: {{.ID}}" >> ~/docker-nginx/html/index.html
+
+sudo echo "</body></html>" >> ~/docker-nginx/html/index.html
