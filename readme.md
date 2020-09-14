@@ -55,7 +55,7 @@ Modify the query in the installer.sh file on line 40 to output your own query
 
 ## Usage
 
-  - Download the project 1 
+  - Download project 1 
   - Modify the variables.tf 
   - Run terraform plan
   - Run terraform apply
