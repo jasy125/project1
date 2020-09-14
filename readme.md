@@ -4,7 +4,7 @@
 
 1. [Description](#description)
 2. [Setup](#setup)
-    * [What Happens](#What Happens)
+    * [What Happens](#what-happens)
     * [Setup requirements](#setup-requirements)
     * [Getting Started](#getting-started)
 3. [Usage - Configuration options and additional functionality](#usage)
