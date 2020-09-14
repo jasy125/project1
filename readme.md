@@ -55,16 +55,16 @@ Modify the query in the dockernginx.sh file on line 40 to output your own query
 
 ## Usage
 
-Download the project 1 
-Modify the variables.tf 
-Run terraform plan
-Run terraform apply
+  - Download the project 1 
+  - Modify the variables.tf 
+  - Run terraform plan
+  - Run terraform apply
 
 #### Required
 
-GCP Account json file : This is downloaded from your google cloud account when creating the project
+* GCP Account json file : This is downloaded from your google cloud account when creating the project
 
-GCP Project ID : The Id of your project
+* GCP Project ID : The Id of your project
 
 ## Limitations
 
@@ -73,10 +73,10 @@ This is designed to run on debian/ubuntu servers
 
 ## Development
 
-First Build with terraform on GCP
-Look into building the docker container on Kubernetes
-Possibly move the postgres to gcp cloud SQL
-Modify script to include centos/rhel or create separate script and call based on selection of os
+* First Build with terraform on GCP
+* Look into building the docker container on Kubernetes
+* Possibly move the postgres to gcp cloud SQL
+* Modify script to include centos/rhel or create separate script and call based on selection of os
 
 ## Release Notes/Contributors/Etc
 
@@ -86,9 +86,9 @@ https://www.postgresql.org/ftp/projects/pgFoundry/dbsamples/world/dbsamples-0.1/
 
 References
 
-https://www.terraform.io/docs/providers/google/
-https://www.postgresql.org/ftp/projects/pgFoundry/dbsamples/world/dbsamples-0.1/
-https://github.com/terraform-providers/terraform-provider-oci/issues/781
+* https://www.terraform.io/docs/providers/google/
+* https://www.postgresql.org/ftp/projects/pgFoundry/dbsamples/world/dbsamples-0.1/
+* https://github.com/terraform-providers/terraform-provider-oci/issues/781
 
 Contributers 
 
