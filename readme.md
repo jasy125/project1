@@ -22,7 +22,7 @@ This Terraform Task will spin up a GCP compute engine and install postgresql, im
 * Sets a Static address
 * Sets firewall rules for port 80 and 443 and allows ping
 * Sets up a new google cloud instance
-  - assigns our ssh key to the instance
+  - Assigns our ssh key to the instance
   - Copies our db and installer script to the instance
   - Modifies and runs the installer script
 
@@ -55,7 +55,7 @@ Modify the query in the installer.sh file on line 40 to output your own query
 
 ## Usage
 
-  - Download the project 1 
+  - Download project1 
   - Modify the variables.tf 
   - Run terraform plan
   - Run terraform apply
@@ -68,8 +68,8 @@ Modify the query in the installer.sh file on line 40 to output your own query
 
 ## Limitations
 
-You need a GCP account to run this
-This is designed to run on debian/ubuntu servers
+- You need a GCP account to run this
+- This is designed to run on debian/ubuntu servers
 
 ## Development
 
