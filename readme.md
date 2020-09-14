@@ -4,7 +4,7 @@
 
 1. [Description](#description)
 2. [Setup](#setup)
-    * [What Happens](#What Happens)
+    * [What Happens](#what-happens)
     * [Setup requirements](#setup-requirements)
     * [Getting Started](#getting-started)
 3. [Usage - Configuration options and additional functionality](#usage)
@@ -20,7 +20,7 @@ This Terraform Task will spin up a GCP compute engine and install postgresql, im
 ### What Happens
 
 * Sets a Static address
-* Sets firewall rules for port 80 and 443 and allows ping packets]
+* Sets firewall rules for port 80 and 443 and allows ping
 * Sets up a new google cloud instance
   - assigns our ssh key to the instance
   - Copies our db and installer script to the instance
@@ -51,7 +51,7 @@ Variables
 
   Descriptions on what each of these are is contained within the variables.tf
 
-Modify the query in the dockernginx.sh file on line 40 to output your own query
+Modify the query in the installer.sh file on line 40 to output your own query
 
 ## Usage
 
