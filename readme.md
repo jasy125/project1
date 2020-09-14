@@ -51,7 +51,7 @@ Variables
 
   Descriptions on what each of these are is contained within the variables.tf
 
-Modify the query in the dockernginx.sh file on line 40 to output your own query
+Modify the query in the installer.sh file on line 40 to output your own query
 
 ## Usage
 
