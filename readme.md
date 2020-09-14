@@ -20,7 +20,7 @@ This Terraform Task will spin up a GCP compute engine and install postgresql, im
 ### What Happens
 
 * Sets a Static address
-* Sets firewall rules for port 80 and 443 and allows ping packets]
+* Sets firewall rules for port 80 and 443 and allows ping
 * Sets up a new google cloud instance
   - assigns our ssh key to the instance
   - Copies our db and installer script to the instance
